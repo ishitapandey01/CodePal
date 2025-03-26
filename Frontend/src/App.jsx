@@ -7,7 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 import axios from 'axios'
 import './App.css'
-
+const VITE_BACKEND_URL=https://ai-codepal.onrender.com
 function App() {
   const [ count, setCount ] = useState(0)
   const [ code, setCode ] = useState(` function sum() {
@@ -22,7 +22,7 @@ function App() {
 
   async function reviewCode() {
     //  const response = await axios.post('http://localhost:3000/ai/get-review', { code })
-    axios.post(`${process.env.REACT_APP_API_BASE_URL}/ai/get-review`, data);
+   const response=await axios.post(`${import.meta.env.VITE_BACKEND_URL}/ai/get-review`, { code });
 
 
     setReview(response.data)
