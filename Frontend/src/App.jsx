@@ -7,6 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 import axios from 'axios'
 import './App.css'
+const REACT_APP_API_BASE_URL=https://codepal-main-backend.onrender.com
 
 function App() {
   const [ count, setCount ] = useState(0)
