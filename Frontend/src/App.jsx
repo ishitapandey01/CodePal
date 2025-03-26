@@ -7,7 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 import axios from 'axios'
 import './App.css'
-const VITE_BACKEND_URL=https://ai-codepal.onrender.com
+
 function App() {
   const [ count, setCount ] = useState(0)
   const [ code, setCode ] = useState(` function sum() {
