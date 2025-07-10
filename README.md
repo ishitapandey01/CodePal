@@ -10,8 +10,4 @@
 - 🌐 Built using React, Node.js, and Express.js
 - 🗂️ No database or data storage — privacy-focused and lightweight
 
-## 🚀 Getting Started
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/codepal.git
