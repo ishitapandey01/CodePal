@@ -7,7 +7,7 @@
 - 🔍 Instant AI-powered code review
 - 🧠 Supports multiple programming languages
 - ✅ Suggestions for bug fixes, optimizations, and clean code practices
-- 🌐 Built using React, Node.js, and Express.js
+- 🌐 Built using  ReactJS, NodeJS, ExpressJS, Google Gemini Al API, Prism.js, Markdown, Axios 
 - 🗂️ No database or data storage — privacy-focused and lightweight
 
 
